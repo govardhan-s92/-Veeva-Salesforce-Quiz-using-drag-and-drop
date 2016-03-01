@@ -1,0 +1,45 @@
+*{
+  -webkit-user-select : none !important;
+  -webkit-transform : translate3d(0,0,0) ! important;
+  -webkit-touch-callout: none !important;
+  -webkit-backface-visibility: hidden;
+}
+body {
+  font-family: "Trebuchet MS", "Helvetica", "Arial",  "Verdana", "sans-serif";
+  font-size: 20px;
+  background-color: #BFFFC2;
+  color: cadetblue;
+}
+header{
+	font: 20px/30px "myraid Pro";
+	padding: 0px 50px;
+}
+.ui-state-default{
+	background-color: #81c784 !important;
+	color: #fff !important;
+}
+.ui-state-active{
+    color: #fff !important;
+    font-weight: bolder !important;
+}
+#accordion{
+	width: 88%;
+    margin: 0px auto;
+    padding: 20px 0;
+}
+#ui-id-2 > p.read_more, #ui-id-6 > p.read_more, #ui-id-4 > p.read_more, #key-message > a > p.read_more{
+  float: right;
+  padding: 0;
+  color: #006EB2;
+}
+/*___________KEY MESSAGE STYLES______________*/
+#key-message{
+  width: 88%;
+  margin: 0 auto;
+}
+input[type="text"]{
+  width: 250px;
+}
+a[target="_SELF"]{
+  text-decoration: none;
+}
